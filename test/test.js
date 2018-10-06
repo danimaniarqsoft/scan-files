@@ -1,5 +1,5 @@
 var scan = require("../main");
 
-var files = scan.scan("/home/daniel/bot");
-
-console.log(files);
+scan.scan("/home/daniel/anaconda3/doc/global" , function (files) {
+    console.log(files);
+});
