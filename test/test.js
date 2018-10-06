@@ -1,3 +1,5 @@
-var printMsg = require("../main");
+var scan = require("../main");
 
-printMsg.printMsg();
+var files = scan.scan("/home/daniel/bot");
+
+console.log(files);
