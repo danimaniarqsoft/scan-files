@@ -1,0 +1,377 @@
+{
+    "path": "/",
+    "name": "leftStr",
+    "children": [
+        {
+            "path": "AdministracionConfiguracion",
+            "name": "AdministracionConfiguracion",
+            "children": [
+                {
+                    "path": "AdministracionConfiguracion/ALB",
+                    "name": "ALB",
+                    "children": [
+                        {
+                            "path": "AdministracionConfiguracion/ALB/LB-[Nombre-Hito]YYYYMMDD",
+                            "name": "LB-[Nombre-Hito]YYYYMMDD",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        }
+                    ],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                },
+                {
+                    "path": "AdministracionConfiguracion/lineas-base",
+                    "name": "lineas-base",
+                    "children": [],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                }
+            ],
+            "size": 0,
+            "type": "directory",
+            "isPresent": true
+        },
+        {
+            "path": "AdministracionProducto",
+            "name": "AdministracionProducto",
+            "children": [
+                {
+                    "path": "AdministracionProducto/1Generales",
+                    "name": "1Generales",
+                    "children": [
+                        {
+                            "path": "AdministracionProducto/1Generales/ControlDeCambios",
+                            "name": "ControlDeCambios",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProducto/1Generales/DAR",
+                            "name": "DAR",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProducto/1Generales/EspecificacionDeLaArquitecturaDeSoftware",
+                            "name": "EspecificacionDeLaArquitecturaDeSoftware",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProducto/1Generales/Manuales",
+                            "name": "Manuales",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProducto/1Generales/Otros",
+                            "name": "Otros",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProducto/1Generales/UnidadesDespliegue",
+                            "name": "UnidadesDespliegue",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        }
+                    ],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                },
+                {
+                    "path": "AdministracionProducto/2Producto",
+                    "name": "2Producto",
+                    "children": [
+                        {
+                            "path": "AdministracionProducto/2Producto/Macromodulo1",
+                            "name": "Macromodulo1",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProducto/2Producto/MacromoduloN",
+                            "name": "MacromoduloN",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        }
+                    ],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                }
+            ],
+            "size": 0,
+            "type": "directory",
+            "isPresent": true
+        },
+        {
+            "path": "AdministracionProyecto",
+            "name": "AdministracionProyecto",
+            "children": [
+                {
+                    "path": "AdministracionProyecto/0Ciclo",
+                    "name": "0Ciclo",
+                    "children": [
+                        {
+                            "path": "AdministracionProyecto/0Ciclo/01Seguimiento",
+                            "name": "01Seguimiento",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/0Ciclo/02IPM",
+                            "name": "02IPM",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/0Ciclo/03PPQA",
+                            "name": "03PPQA",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        }
+                    ],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                },
+                {
+                    "path": "AdministracionProyecto/1Ciclo",
+                    "name": "1Ciclo",
+                    "children": [
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/00DocAdminCliente",
+                            "name": "00DocAdminCliente",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/01PreparacionLanzamiento",
+                            "name": "01PreparacionLanzamiento",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/02Lanzamiento",
+                            "name": "02Lanzamiento",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/03Seguimiento",
+                            "name": "03Seguimiento",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/04Checkpoint",
+                            "name": "04Checkpoint",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/05Postmortem",
+                            "name": "05Postmortem",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/06Planes",
+                            "name": "06Planes",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/07IPM",
+                            "name": "07IPM",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/08Calidad",
+                            "name": "08Calidad",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/1Ciclo/09PPQA",
+                            "name": "09PPQA",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        }
+                    ],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                },
+                {
+                    "path": "AdministracionProyecto/NNCiclo",
+                    "name": "NNCiclo",
+                    "children": [
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/00DocAdminCliente",
+                            "name": "00DocAdminCliente",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/01PreparacionRelanzamiemto",
+                            "name": "01PreparacionRelanzamiemto",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/02Relanzamiemto",
+                            "name": "02Relanzamiemto",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/03Seguimiento",
+                            "name": "03Seguimiento",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/04Checkpoint",
+                            "name": "04Checkpoint",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/05Postmortem",
+                            "name": "05Postmortem",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/06Planes",
+                            "name": "06Planes",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/07IPM",
+                            "name": "07IPM",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/08Calidad",
+                            "name": "08Calidad",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        },
+                        {
+                            "path": "AdministracionProyecto/NNCiclo/09PPQA",
+                            "name": "09PPQA",
+                            "children": [],
+                            "size": 0,
+                            "type": "directory",
+                            "isPresent": true
+                        }
+                    ],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                },
+                {
+                    "path": "AdministracionProyecto/Planes",
+                    "name": "Planes",
+                    "children": [],
+                    "size": 0,
+                    "type": "directory",
+                    "isPresent": true
+                }
+            ],
+            "size": 0,
+            "type": "directory",
+            "isPresent": true
+        },
+        {
+            "path": "MantenimientoSoporte",
+            "name": "MantenimientoSoporte",
+            "children": [
+                {
+                    "path": "MantenimientoSoporte/SeguimientoPeticiones",
+                    "name": "SeguimientoPeticiones",
+                    "children": [],
+                    "size": 0,
+                    "type": "directory"
+                }
+            ],
+            "size": 0,
+            "type": "directory",
+            "isPresent": false
+        }
+    ],
+    "size": 0,
+    "type": "directory"
+}

@@ -27,6 +27,7 @@
     "glob": "^7.1.0",
     "highlight.js": "^9.3.0",
     "json-query": "^2.2.2",
+    "sync-request": "^6.0.0",
     "walk": "^2.3.14"
   }
 }

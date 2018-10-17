@@ -2,13 +2,15 @@
 
 const dirTree = require('directory-tree');
 const diff = require('../main').diff
-const printFolder = require('../main').printFolder
+const printFolder = require('../util/print-folder').printFolder
 const path = require('path')
+const https = require('https')
+const httpFolder = require('../util/http-folder')
 
 const basepath = 'resources'
 var leftStrPath = path.join(__dirname, basepath, 'leftStr')
 var rightStrPath = path.join(__dirname, basepath, 'rightStr')
-var leftTree = dirTree(leftStrPath);
+var leftTree = httpFolder.getJsonFromRepository()
 var rightTree = dirTree(rightStrPath)
 var difference = diff(leftTree, rightTree)
 //console.log(difference.result)
