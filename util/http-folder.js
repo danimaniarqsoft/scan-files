@@ -7,4 +7,3 @@ exports.getJsonFromRepository = function () {
   var res = request('GET', JSON_RESOURCE);
   return JSON.parse(res.getBody('utf8'))
 }
-
