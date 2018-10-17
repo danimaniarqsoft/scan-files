@@ -1,5 +1,3 @@
-'use strict';
-
 const fs = require('fs');
 const path = require('path');
 const dirTree = require('directory-tree');
@@ -7,8 +5,8 @@ const tab = 4;
 
 exports.diff = function (leftTree, rightTree) {
     var context = {}
-    var deep = - tab
     context.info = []
+    deep = - tab
     return diffFolder(leftTree, rightTree, context, deep)
 }
 
@@ -46,23 +44,4 @@ var addSpaces = function (deep, cadena) {
         spaces = spaces + ' '
     }
     return spaces + cadena
-}
-
-exports.printFolder = function (leftTree, rightTree) {
-  var context = {}
-  context.info = []
-  var deep = - tab
-  printTreeElements(leftTree, context, deep)
-}
-
-var printTreeElements = function (tree, context, deep) {
-  deep = deep + tab;
-  tree.children.forEach(currentFile => {
-      if (currentFile.isPresent === false || currentFile.isPresent === undefined) {
-          console.log(addSpaces(deep, currentFile.name))
-      }
-      if (currentFile.children) {
-          printTreeElements(currentFile, context, deep)
-      }
-  });
 }
