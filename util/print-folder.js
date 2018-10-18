@@ -6,7 +6,7 @@ const Config = require('./diff-folder').Config
 exports.printFolder = function (leftTree, action) {
   var deep = - Config.TAB_SIZE
   if (action === undefined) {
-    action = defaultActions
+    action = defaulAction
   }
   printTreeElements(leftTree, deep, action)
 }
@@ -21,6 +21,6 @@ var printTreeElements = function (tree, deep, action) {
   });
 }
 
-function defaultAction(currentFile, deep) {
+function defaulAction(currentFile, deep) {
   console.log(leadinSpaces(deep, currentFile.name))
 }
