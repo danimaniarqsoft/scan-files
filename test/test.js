@@ -8,11 +8,13 @@ const printFolder = require('../util/print-folder').printFolder
 const path = require('path')
 const fs = require('fs')
 const basepath = 'resources'
+const http = require('../util/http-folder')
 
 var leftStrPath = path.join(__dirname, basepath, 'repository-template.json')
 var rightStrPath = path.join(__dirname, basepath, 'rightStr')
 var leftTree = JSON.parse(fs.readFileSync(leftStrPath, 'utf8'));
 var rightTree = dirTree(rightStrPath)
+
 
 var difference = diff(leftTree, rightTree)
 describe('Diff', function () {
@@ -20,3 +22,5 @@ describe('Diff', function () {
         assert.equal(difference.result.name, 'repository');
     });
 });
+
+console.log(http.getJsonFromRepository())

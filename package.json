@@ -1,6 +1,6 @@
 {
   "name": "scan-files",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "file scan for kukulkan agent",
   "main": "main.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "git+https://github.com/danimaniarqsoft/scan-files.git"
   },
   "author": "Daniel Cortes Pichardo",
+  "email": "daniel.cortes.pichardo@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/danimaniarqsoft/scan-files/issues"
@@ -21,13 +22,7 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "deep-diff": "^1.0.2",
-    "directory-structure-json": "^1.0.0",
     "directory-tree": "^2.1.0",
-    "glob": "^7.1.0",
-    "highlight.js": "^9.3.0",
-    "json-query": "^2.2.2",
-    "sync-request": "^6.0.0",
-    "walk": "^2.3.14"
+    "sync-request": "^6.0.0"
   }
 }
