@@ -6,7 +6,7 @@ const Config = require('./diff-folder').Config
 exports.printFolder = function (leftTree, action) {
   var deep = - Config.TAB_SIZE
   if (action === undefined) {
-    action = defaulAction
+    action = defaultAction
   }
   printTreeElements(leftTree, deep, action)
 }
@@ -21,6 +21,8 @@ var printTreeElements = function (tree, deep, action) {
   });
 }
 
-function defaulAction(currentFile, deep) {
-  console.log(leadinSpaces(deep, currentFile.name))
+function defaultAction(currentFile, deep) {
+  var symbol = currentFile.type === 'directory' ? '+' : '-'
+  var presentSymbol = currentFile.isPresent ? '' : '*'
+  console.log(leadinSpaces(deep, symbol + currentFile.name + presentSymbol))
 }
